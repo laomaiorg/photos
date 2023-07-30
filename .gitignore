@@ -1,1 +1,28 @@
-.idea
+# 忽略操作系统相关的文件
+.DS_Store          # macOS 系统文件
+Thumbs.db         # Windows 系统文件
+
+# 忽略编译生成的文件和目录
+/build/           # 编译输出目录
+/dist/            # 打包输出目录
+/node_modules/    # npm 或 Yarn 的依赖库目录
+
+# 忽略各种IDE和编辑器生成的文件和目录
+.idea/            # IntelliJ IDEA IDE
+.vscode/          # Visual Studio Code IDE
+*.sublime-project # Sublime Text 项目文件
+*.sublime-workspace
+
+# 忽略常见的文本编辑器生成的临时文件
+*.swp             # Vim 临时文件
+*~                # Emacs 临时文件
+
+# 忽略日志和备份文件
+*.log
+*.bak
+
+# 忽略个人配置文件（根据需要自行添加）
+credentials.json  # Google API 密钥文件
+config.ini        # 敏感配置文件
+
+# 忽略其他自定义规则（根据需要自行添加）

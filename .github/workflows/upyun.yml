@@ -6,7 +6,7 @@ on:
     branches:
       - main
     paths:
-      - 'mai/**' # 目录内容有变化执行工作流
+      - '/**' # 目录内容有变化执行工作流
 
 jobs:
   build:
@@ -22,4 +22,4 @@ jobs:
           bucket: ${{ secrets.UPYUN_BUCKET }}
           operator: ${{ secrets.OPERATOR }}
           password: ${{ secrets.OPERATOR_PASSWORD }}
-          dir: mai # 需同步的本地目录
+          dir: # 需同步的本地目录
