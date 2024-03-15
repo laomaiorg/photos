@@ -1,0 +1,1 @@
+配合PicGo来使用的仓库。如果将文件上传到github/这个目录的话就会触发github actions将图片传到upyun上。
